@@ -1,0 +1,29 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Build with Buildozer
+      uses: Artemis2108/buildozer-action@v1
+      with:
+        command: buildozer android debug
+        subfolder: .
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: copper9-terminal-apk
+        path: bin/*.apk

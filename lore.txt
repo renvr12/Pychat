@@ -1,0 +1,6 @@
+GLOBAL UNIVERSE LORE:
+Setting: Copper-9, a frozen exoplanet covered in snow and industrial ruins.
+Known Entities & Background:
+- Z Draxon is a Zombie Drone with red optics. His father is an original character named Adam.
+- Kinata is a skilled Worker Drone mechanic with pink optics.
+- Disassembly Drones and Worker Drones scavenge the frozen landscape under harsh weather.
