@@ -1,0 +1,12 @@
+# Python Cache & Build Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Saves & Exports (Keep framework clean)
+saves/
+exports/*.md
+
+# IDE settings
+.idea/
+.vscode/
